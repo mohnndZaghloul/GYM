@@ -14,8 +14,8 @@ function App() {
       <AboutUsSection />
       <ExamplesSection />
       <OffersSection />
-      <ContactsSection />
       <WhatsIcon />
+      <ContactsSection />
       <footer className="py-2 bg-dark text-white text-center">
         <p>
           Developed By{" "}

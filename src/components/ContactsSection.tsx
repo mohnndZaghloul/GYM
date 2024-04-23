@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const ContactsSection = () => {
   return (
-    <section dir="rtl" className="py-10 lg:py-20 overflow-hidden">
+    <section dir="rtl" className="py-20 lg:py-32 overflow-hidden">
       <motion.div
         style={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
