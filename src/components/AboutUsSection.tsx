@@ -20,7 +20,7 @@ const AboutUsSection = () => {
         style={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0, transition: { duration: 0.8 } }}>
         <p className="text-gray-500">مدرب شخصي</p>
-        <h1 className="text-4xl lg:text-6xl font-bold">ادهم ابراهيم اسامه</h1>
+        <h1 className="text-4xl lg:text-6xl font-bold">ادهم ابراهيم عثمان</h1>
         <p className="text-lg lg:text-2xl mt-5">
           مدرب شخصي معتمد من nasm الأكاديمية الوطنية للطب الرياضي
           <br />
