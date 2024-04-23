@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-li {
+    @apply relative overflow-hidden py-5 hover:text-primary-200 active:text-primary-200 after:absolute after:bottom-0 after:left-0 after:transition hover:after:translate-x-0 after:-translate-x-[105%] after:w-full after:h-[1px] after:bg-white;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0f1035;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #365486;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7fc7d9;
+}
