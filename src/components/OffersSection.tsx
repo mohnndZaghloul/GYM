@@ -72,6 +72,53 @@ const OffersSection = () => {
           </p>
         </motion.div>
       </div>
+      <div className="border border-white rounded-2xl bg-white text-primary-400 container py-10 mt-10">
+        <h1 className="text-5xl font-bold mb-10">الباقات</h1>
+        <ul className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8">
+          <li className="rounded-2xl border border-primary-300 shadow-lg hover:-translate-x-2 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+            <a
+              target="_blank"
+              href="https://wa.me/+201080458323"
+              className="p-10 block">
+              <h3 className="text-xl lg:text-3xl">شهر </h3>
+              <p className="text-xl lg:text-3xl font-semibold">600 ج.م</p>
+            </a>
+          </li>
+          <li className="rounded-2xl border border-primary-300 shadow-lg hover:-translate-x-2 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+            <a
+              target="_blank"
+              href="https://wa.me/+201080458323"
+              className="p-10 block">
+              <h3 className="text-xl lg:text-3xl">شهرين </h3>
+              <p className="text-xl lg:text-3xl font-semibold">900 ج.م</p>
+            </a>
+          </li>
+          <li className="rounded-2xl border border-primary-300 shadow-lg hover:-translate-x-2 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+            <a
+              target="_blank"
+              href="https://wa.me/+201080458323"
+              className="p-10 block">
+              <h3 className="text-xl lg:text-3xl">3شهور </h3>
+              <p className="text-xl lg:text-3xl font-semibold">1200 ج.م</p>
+            </a>
+          </li>
+          <li className="rounded-2xl border border-primary-300 shadow-lg hover:-translate-x-2 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+            <a
+              target="_blank"
+              href="https://wa.me/+201080458323"
+              className="p-10 block">
+              <h3 className="text-xl lg:text-3xl">6شهور  </h3>
+              <p className="text-xl lg:text-3xl font-semibold">2100 ج.م</p>
+            </a>
+          </li>
+        </ul>
+        <a
+          target="_blank"
+          href="https://wa.me/+201080458323"
+          className="px-10 py-4 bg-secondary-300 text-white text-xl inline-block mt-10 rounded-2xl border border-secondary-400 active:scale-90 hover:scale-110 hover:bg-white hover:text-secondary-400 transition duration-300">
+          اشترك الان
+        </a>
+      </div>
     </section>
   );
 };

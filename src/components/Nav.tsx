@@ -46,7 +46,7 @@ const Nav = () => {
               <a href="#services"> البرامج </a>
             </li>
             <li className="nav-li">
-              <a href="contact"> اتصل بنا </a>
+              <a href="#contacts"> اتصل بنا </a>
             </li>
           </ul>
         </div>
